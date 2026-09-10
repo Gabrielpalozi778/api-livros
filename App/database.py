@@ -1,7 +1,7 @@
 from collections.abc import Generator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from sqlalchemy import create_engine
-from sqlalchemy.orm import DeclarativeBase, sessionmaker
+from sqlalchemy.orm import DeclarativeBase, sessionmaker, Session
 
 
 class Configuracoes(BaseSettings):
