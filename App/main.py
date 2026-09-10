@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from sqlalchemy import text
 
-from app.database import mecanismo_banco
+from App.database import mecanismo_banco
 
 
 app = FastAPI(
