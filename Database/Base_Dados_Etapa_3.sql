@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Estrutura para tabela `livros`
 --
+CREATE DATABASE Base_Dados_Etapa_3;
+use Base_Dados_Etapa_3;
 
 CREATE TABLE `livros` (
   `id` int(11) NOT NULL,
